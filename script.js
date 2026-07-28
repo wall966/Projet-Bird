@@ -5,7 +5,7 @@ const ctx = canvas.getContext("2d");
 // Spritesheet com as imagens do jogo
 const img = new Image();
 
-img.src = "media/flappy-bird-set.png";
+img.src = "./media/flappy-bird-set.png";
 
 let gamePlaying = false; // false = tela inicial, true = jogando
 
